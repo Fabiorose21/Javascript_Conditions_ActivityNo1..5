@@ -1,0 +1,28 @@
+<html>
+    <body>
+        
+        <script>
+            /* 4. Find the grade of the student based on the input marks
+            let newAge = parseInt(Age);*/
+            let marks = prompt("Enter your Grade:");
+            let result = "";
+
+            if(marks >=91 && marks <= 100){
+            result = "S Grade" ;}
+            else if(marks >=81 && marks <=90){
+            result = "A Grade";}
+            else if(marks >=71 && marks <=80){
+            result = "B Grade";}
+            else if(marks >=61 && marks <=70){
+            result = "C Grade";}
+            else if(marks >=51 && marks <=60){
+            result = "D Grade";}
+            else if(marks >=41 && marks <=50){
+            result = "E Grade";}
+            else if(marks >=0 && marks <=50){
+            result = "Student has failed";}
+            else {result = "Invalid Grade"}
+            alert(result)
+        </script>
+    </body>
+</html>
